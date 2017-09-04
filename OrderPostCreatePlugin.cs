@@ -13,7 +13,6 @@ protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
             {
                 try
                 {
-                    //Incident incident = (context.InputParameters["Target"] as Entity).ToEntity<Incident>();
                     Entity order = (Entity)context.InputParameters["Target"];
 
                     if (order == null)
