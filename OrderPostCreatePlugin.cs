@@ -18,7 +18,7 @@ protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
 
                     if (order == null)
                     {
-                        throw new ArgumentNullException("Entities", new Exception("Entities Collection not found to create"));
+                        throw new ArgumentNullException("Entities", new Exception("Order Entity not found"));
                     }
                     else
                     {
